@@ -2,14 +2,13 @@ VFP Component Class ctlTip
 ==========================
 An Improved ToolTip Control
 ---------------------------
-
 The control supports multiple lines of text, allows the balloon-style display feature, and can be set up to be activated automatically (as in a hover event) or on demand.
+
+![](images/pic1.png)
 
 This component is designed to be self-contained, and not dependent on other external files or components beyond the standard FoxPro and Windows APIs.
 
 My thanks and recognition to Carlos Alloatti, G. Shah, Yousfi Benameur, and Microsoft, from who's posts I've gleaned inspiration and methods.
-
-Greg Willcockson 3/2020
 
 To use:
  
@@ -55,3 +54,5 @@ Demand type tips can be shown via **ShowTip**:
 	* tnYPosn   (optional) Screen vertical pixel position.
 
 See the test form, "ctlTipTest.scx" for examples.
+
+Greg Willcockson 3/2020
